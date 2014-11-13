@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Beddit.Net/bin/Debug
+/Beddit.Net/obj/Debug
+/Beddit.Net/packages
+!/Beddit.Net/packages/repositories.config
+/Beddit.Tests/bin/Debug
+/Beddit.Tests/obj/Debug
+*.user
+*.suo

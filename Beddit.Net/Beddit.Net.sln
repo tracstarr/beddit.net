@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beddit.Net", "Beddit.Net.csproj", "{AA0D8200-9C5D-4EA3-A47F-9A108F83B0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beddit.Tests", "..\Beddit.Tests\Beddit.Tests.csproj", "{64B3879F-29F5-4661-ACC3-BBD04AF0F0A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1E09B876-E7EB-473B-8741-5462B0130A1F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA0D8200-9C5D-4EA3-A47F-9A108F83B0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0D8200-9C5D-4EA3-A47F-9A108F83B0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0D8200-9C5D-4EA3-A47F-9A108F83B0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0D8200-9C5D-4EA3-A47F-9A108F83B0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B3879F-29F5-4661-ACC3-BBD04AF0F0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B3879F-29F5-4661-ACC3-BBD04AF0F0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B3879F-29F5-4661-ACC3-BBD04AF0F0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B3879F-29F5-4661-ACC3-BBD04AF0F0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
